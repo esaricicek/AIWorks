@@ -1,0 +1,15 @@
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\bin\Debug\net5.0\AI_Analiz.exe
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\bin\Debug\net5.0\AI_Analiz.deps.json
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\bin\Debug\net5.0\AI_Analiz.runtimeconfig.json
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\bin\Debug\net5.0\AI_Analiz.runtimeconfig.dev.json
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\bin\Debug\net5.0\AI_Analiz.dll
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\bin\Debug\net5.0\ref\AI_Analiz.dll
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\bin\Debug\net5.0\AI_Analiz.pdb
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\AI_Analiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\AI_Analiz.AssemblyInfoInputs.cache
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\AI_Analiz.AssemblyInfo.cs
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\AI_Analiz.csproj.CoreCompileInputs.cache
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\AI_Analiz.dll
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\ref\AI_Analiz.dll
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\AI_Analiz.pdb
+C:\Users\Emrah\source\repos\AI_Analiz\AI_Analiz\obj\Debug\net5.0\AI_Analiz.genruntimeconfig.cache
