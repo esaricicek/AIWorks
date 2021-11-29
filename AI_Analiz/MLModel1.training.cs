@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.ML.Data;
-using Microsoft.ML.Trainers.FastTree;
 using Microsoft.ML.Trainers;
 using Microsoft.ML;
 
@@ -33,7 +32,8 @@ namespace AI_Analiz
                                     .Append(mlContext.Transforms.ReplaceMissingValues(@"Total deaths", @"Total deaths"))      
                                     .Append(mlContext.Transforms.Text.FeaturizeText(@"Age Years", @"Age Years"))      
                                     .Append(mlContext.Transforms.Concatenate(@"Features", new []{@"Data as of",@"Start Date",@"End Date",@"Sex",@"Total deaths",@"Age Years"}))      
-                                    .Append(mlContext.Regression.Trainers.FastForest(new FastForestRegressionTrainer.Options(){NumberOfTrees=4,FeatureFraction=1F,LabelColumnName=@"COVID-19 Deaths",FeatureColumnName=@"Features"}));
+                                    .Append(mlContext.Transforms.NormalizeMinMax(@"Features", @"Features"))      
+                                    .Append(mlContext.Regression.Trainers.LbfgsPoissonRegression(l1Regularization:1F,l2Regularization:1F,labelColumnName:@"COVID-19 Deaths",featureColumnName:@"Features"));
 
             return pipeline;
         }

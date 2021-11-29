@@ -29,11 +29,11 @@
           "lib/netstandard1.3/Microsoft.CSharp.dll": {}
         }
       },
-      "Microsoft.ML/1.6.0": {
+      "Microsoft.ML/1.7.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.ML.CpuMath": "1.6.0",
-          "Microsoft.ML.DataView": "1.6.0",
+          "Microsoft.ML.CpuMath": "1.7.0",
+          "Microsoft.ML.DataView": "1.7.0",
           "Newtonsoft.Json": "10.0.3",
           "System.CodeDom": "4.4.0",
           "System.Collections.Immutable": "1.5.0",
@@ -94,7 +94,7 @@
           }
         }
       },
-      "Microsoft.ML.CpuMath/1.6.0": {
+      "Microsoft.ML.CpuMath/1.7.0": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {}
@@ -136,7 +136,7 @@
           }
         }
       },
-      "Microsoft.ML.DataView/1.6.0": {
+      "Microsoft.ML.DataView/1.7.0": {
         "type": "package",
         "dependencies": {
           "System.Collections.Immutable": "1.5.0",
@@ -149,10 +149,10 @@
           "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
         }
       },
-      "Microsoft.ML.FastTree/1.6.0": {
+      "Microsoft.ML.FastTree/1.7.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.ML": "1.6.0"
+          "Microsoft.ML": "1.7.0"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
@@ -1646,10 +1646,10 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "Microsoft.ML/1.6.0": {
-      "sha512": "zkDI36NE/xX076TRYT4IZ1bdHc5Sr0KVHeUeEANP1R4jOZpztJXTxHVK/izK+Jz1137Xszp5zdyzw7VOd+WsSA==",
+    "Microsoft.ML/1.7.0": {
+      "sha512": "VWNzTz3Owt7qBxsLD1cxjx3fN7YuyVKu26OIwKIF83r+3Fm8B/OkiXugP8rjIYg0c3+KK8G3ks96eiOfdzT26g==",
       "type": "package",
-      "path": "microsoft.ml/1.6.0",
+      "path": "microsoft.ml/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1671,7 +1671,7 @@
         "lib/netstandard2.0/Microsoft.ML.Transforms.xml",
         "lib/netstandard2.0/Microsoft.ML.dll",
         "lib/netstandard2.0/Microsoft.ML.xml",
-        "microsoft.ml.1.6.0.nupkg.sha512",
+        "microsoft.ml.1.7.0.nupkg.sha512",
         "microsoft.ml.nuspec",
         "mlnetlogo.png",
         "runtimes/linux-arm/native/libLdaNative.so",
@@ -1683,10 +1683,10 @@
         "runtimes/win-x86/native/LdaNative.dll"
       ]
     },
-    "Microsoft.ML.CpuMath/1.6.0": {
-      "sha512": "tcDUQ84xG9D8VFgBgXcps/stBoefEK14+deMfftUms8vb9qUmc3A6yTQRZyaggL6Fxybi4LiHLn5DhGs0NvOBw==",
+    "Microsoft.ML.CpuMath/1.7.0": {
+      "sha512": "ibot+EJKOG21DE47YQCy8djLpSJ31hgbwkJPkG2a5KSieb2eEGySCzzMLBAcP2jR5vd8+5Gss3FuGYvfY9Bncw==",
       "type": "package",
-      "path": "microsoft.ml.cpumath/1.6.0",
+      "path": "microsoft.ml.cpumath/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1697,7 +1697,7 @@
         "lib/netcoreapp3.1/Microsoft.ML.CpuMath.xml",
         "lib/netstandard2.0/Microsoft.ML.CpuMath.dll",
         "lib/netstandard2.0/Microsoft.ML.CpuMath.xml",
-        "microsoft.ml.cpumath.1.6.0.nupkg.sha512",
+        "microsoft.ml.cpumath.1.7.0.nupkg.sha512",
         "microsoft.ml.cpumath.nuspec",
         "mlnetlogo.png",
         "runtimes/linux-arm/nativeassets/netcoreapp3.1/_._",
@@ -1713,10 +1713,10 @@
         "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll"
       ]
     },
-    "Microsoft.ML.DataView/1.6.0": {
-      "sha512": "o32XTTTledXjrX8e14habbzk+WJhj+Zgs1UV1OiTwO+rVUwnT4KSROri4L/5kuWdSxMCcTFb5sE1JnjHb+y1Gg==",
+    "Microsoft.ML.DataView/1.7.0": {
+      "sha512": "pMfpOsoRcexVnsNqwRqcqRsdfzw2dN3kBu3QzmZ3YqPuiZLLoDHaB3ZYEAvnIUEhpnIe4wVD4UnUWvatzoVWcQ==",
       "type": "package",
-      "path": "microsoft.ml.dataview/1.6.0",
+      "path": "microsoft.ml.dataview/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1724,15 +1724,15 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.ML.DataView.dll",
         "lib/netstandard2.0/Microsoft.ML.DataView.xml",
-        "microsoft.ml.dataview.1.6.0.nupkg.sha512",
+        "microsoft.ml.dataview.1.7.0.nupkg.sha512",
         "microsoft.ml.dataview.nuspec",
         "mlnetlogo.png"
       ]
     },
-    "Microsoft.ML.FastTree/1.6.0": {
-      "sha512": "QBAsPSU/MlcUEyMlWD4tZr80evXsLlffqp+P9YUWWxSuEmOXjXFQl77gnOtQh9C8XJSj5EEkztV320+ESsvcCg==",
+    "Microsoft.ML.FastTree/1.7.0": {
+      "sha512": "n6twixlV7j3j1lK4Mr7s0JrNcSK7/mffGsdh86gcXC+e9T8ewDD4PA1Eh01fc9+mraSSj3gdK861WZYeq17CMw==",
       "type": "package",
-      "path": "microsoft.ml.fasttree/1.6.0",
+      "path": "microsoft.ml.fasttree/1.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1741,7 +1741,7 @@
         "build/netstandard2.0/Microsoft.ML.FastTree.props",
         "lib/netstandard2.0/Microsoft.ML.FastTree.dll",
         "lib/netstandard2.0/Microsoft.ML.FastTree.xml",
-        "microsoft.ml.fasttree.1.6.0.nupkg.sha512",
+        "microsoft.ml.fasttree.1.7.0.nupkg.sha512",
         "microsoft.ml.fasttree.nuspec",
         "mlnetlogo.png",
         "runtimes/linux-x64/native/libFastTreeNative.so",
@@ -5533,8 +5533,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.ML >= 1.6.0",
-      "Microsoft.ML.FastTree >= 1.6.0"
+      "Microsoft.ML >= 1.7.0",
+      "Microsoft.ML.FastTree >= 1.7.0"
     ]
   },
   "packageFolders": {
@@ -5585,11 +5585,11 @@
         "dependencies": {
           "Microsoft.ML": {
             "target": "Package",
-            "version": "[1.6.0, )"
+            "version": "[1.7.0, )"
           },
           "Microsoft.ML.FastTree": {
             "target": "Package",
-            "version": "[1.6.0, )"
+            "version": "[1.7.0, )"
           }
         },
         "imports": [

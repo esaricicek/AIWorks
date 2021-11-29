@@ -4,7 +4,7 @@
   "DataSource": {
     "Type": "TabularFile",
     "Version": 1,
-    "FilePath": "C:\\Users\\Emrah\\Documents\\University\\2021-2022\\AI\\Provisional_COVID-19_Death_Counts_by_Age_in_Years__2020-2021.csv",
+    "FilePath": "C:\\Users\\Emrah\\source\\repos\\AI_Analiz\\AIWorks\\Provisional_COVID-19_Death_Counts_by_Age_in_Years__2020-2021.csv",
     "Delimiter": ",",
     "DecimalMarker": ".",
     "HasHeader": true,
@@ -79,39 +79,60 @@
         "Version": 0,
         "Type": "Trial",
         "TrainerName": "FastForestRegression",
-        "Score": 0.46812544377238074,
-        "RuntimeInSeconds": 3.625
+        "Score": 0.27275849179896994,
+        "RuntimeInSeconds": 1.3890000581741333
       },
       {
         "Version": 0,
         "Type": "Trial",
         "TrainerName": "FastTreeRegression",
-        "Score": 0.23257534403269081,
-        "RuntimeInSeconds": 1.0989999771118164
+        "Score": 0.37266655886777872,
+        "RuntimeInSeconds": 1.2350000143051148
       },
       {
         "Version": 0,
         "Type": "Trial",
         "TrainerName": "FastTreeTweedieRegression",
-        "Score": -0.76589932072594347,
-        "RuntimeInSeconds": 1.2089999914169312
-      },
-      {
-        "Version": 0,
-        "Type": "Trial",
-        "TrainerName": "SdcaRegression",
-        "Score": 0.039270159774387782,
-        "RuntimeInSeconds": 1.1660000085830689
+        "Score": -0.67939064336563537,
+        "RuntimeInSeconds": 1.5740000009536743
       },
       {
         "Version": 0,
         "Type": "Trial",
         "TrainerName": "LbfgsPoissonRegressionRegression",
-        "Score": 0.86935805494779272,
-        "RuntimeInSeconds": 1.1460000276565552
+        "Score": 0.83279398092602919,
+        "RuntimeInSeconds": 1.2690000534057617
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "SdcaRegression",
+        "Score": -0.032590835112093021,
+        "RuntimeInSeconds": 1.3580000400543213
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "LightGbmRegression",
+        "Score": 0.33436570264753873,
+        "RuntimeInSeconds": 1.0379999876022339
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastTreeRegression",
+        "Score": 0.036758084789900961,
+        "RuntimeInSeconds": 1.5160000324249268
+      },
+      {
+        "Version": 0,
+        "Type": "Trial",
+        "TrainerName": "FastForestRegression",
+        "Score": 0.44374003434720277,
+        "RuntimeInSeconds": 1.8910000324249268
       }
     ],
-    "Pipeline": "[{\"EstimatorType\":\"OneHotEncoding\",\"Inputs\":[\"Data as of\",\"Start Date\",\"End Date\",\"Sex\"],\"Outputs\":[\"Data as of\",\"Start Date\",\"End Date\",\"Sex\"]},{\"EstimatorType\":\"ReplaceMissingValues\",\"Inputs\":[\"Total deaths\"],\"Outputs\":[\"Total deaths\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"Age Years\"],\"Outputs\":[\"Age Years\"]},{\"EstimatorType\":\"Concatenate\",\"Inputs\":[\"Data as of\",\"Start Date\",\"End Date\",\"Sex\",\"Total deaths\",\"Age Years\"],\"Outputs\":[\"Features\"]},{\"LabelColumnName\":\"COVID-19 Deaths\",\"FeatureColumnName\":\"Features\",\"NumberOfTrees\":\"4\",\"FeatureFraction\":\"1\",\"EstimatorType\":\"FastForestRegression\",\"Inputs\":[\"COVID-19 Deaths\"],\"Outputs\":[\"Features\"]}]",
+    "Pipeline": "[{\"EstimatorType\":\"OneHotEncoding\",\"Inputs\":[\"Data as of\",\"Start Date\",\"End Date\",\"Sex\"],\"Outputs\":[\"Data as of\",\"Start Date\",\"End Date\",\"Sex\"]},{\"EstimatorType\":\"ReplaceMissingValues\",\"Inputs\":[\"Total deaths\"],\"Outputs\":[\"Total deaths\"]},{\"EstimatorType\":\"FeaturizeText\",\"Inputs\":[\"Age Years\"],\"Outputs\":[\"Age Years\"]},{\"EstimatorType\":\"Concatenate\",\"Inputs\":[\"Data as of\",\"Start Date\",\"End Date\",\"Sex\",\"Total deaths\",\"Age Years\"],\"Outputs\":[\"Features\"]},{\"EstimatorType\":\"NormalizeMinMax\",\"Inputs\":[\"Features\"],\"Outputs\":[\"Features\"]},{\"LabelColumnName\":\"COVID-19 Deaths\",\"FeatureColumnName\":\"Features\",\"L1Regularization\":\"1\",\"L2Regularization\":\"1\",\"EstimatorType\":\"LbfgsPoissonRegressionRegression\",\"Inputs\":[\"COVID-19 Deaths\"],\"Outputs\":[\"Features\"]}]",
     "MetricName": "RSquared"
   },
   "Type": "TrainingConfig",

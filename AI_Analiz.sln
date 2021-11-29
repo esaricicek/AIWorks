@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AI_Analiz", "AI_Analiz\AI_A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel1_ConsoleApp1", "MLModel1_ConsoleApp1\MLModel1_ConsoleApp1.csproj", "{305DBB50-F375-4776-8CAE-0F55C65B8394}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLModel3_WebApi1", "MLModel3_WebApi1\MLModel3_WebApi1.csproj", "{0A50427E-3529-4301-B8EE-4D7FB84ED7B7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{305DBB50-F375-4776-8CAE-0F55C65B8394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{305DBB50-F375-4776-8CAE-0F55C65B8394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{305DBB50-F375-4776-8CAE-0F55C65B8394}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A50427E-3529-4301-B8EE-4D7FB84ED7B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A50427E-3529-4301-B8EE-4D7FB84ED7B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A50427E-3529-4301-B8EE-4D7FB84ED7B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A50427E-3529-4301-B8EE-4D7FB84ED7B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
